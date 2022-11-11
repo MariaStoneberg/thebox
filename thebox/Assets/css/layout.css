@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-family: 'montserrat', sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 100px 10px 100px;
+}
+
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+}
+
+.Hero {
+    height: 100vh;
+    background-image: url("/img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-left: 100px;
+    padding-top: 50vh;
+    font-weight: 700;
+    font-size: 3.5em;
+    color: var(--color-neutral);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 50px 0 50px 0;
+}
+
+.footer p {
+    grid-column: 1;
+}
+
+.footer h4 {
+    grid-column: 3;
+}
+
+.footer #email #subscribe {
+    grid-column: 3;
+}
+
+
+

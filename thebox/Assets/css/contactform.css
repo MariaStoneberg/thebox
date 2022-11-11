@@ -1,0 +1,49 @@
+.formct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    background-color: var(--color-light-neutral50);
+
+    gap: 10px;
+
+}
+
+input {
+    width: 389px;
+}
+
+.input-felt {
+    border: none;
+    padding: 5px 0 5px 5px;
+
+}
+
+.form-heading{
+    padding-top: 50px;
+}
+
+.form-p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#submitbtn {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+    border: none;
+    padding: 10px 0 10px 0px;
+    width: 160px;
+    margin: 10px 0 50px 0;
+}
+
+#message {
+    padding-bottom: 70px;
+    border: none;
+}
+
+input::placeholder {
+    color: var(--color-grey-neutral300);
+}

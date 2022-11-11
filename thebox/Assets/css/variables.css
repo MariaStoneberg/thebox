@@ -1,0 +1,12 @@
+:root {
+    --font-base: font-family: 'Montserrat', sans-serif;
+    --color-primary: #2947A9;
+    --color-secondary: #F9995D;
+    --color-neutral: #292E3D;
+    --color-grey-neutral300: #A3AAC2;
+    --color-light-neutral50: #F6F8F7;
+    --color-white: white; 
+
+    --slideDirection: 0;
+
+}

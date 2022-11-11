@@ -1,0 +1,42 @@
+body {
+    font-family: var( --font-base);
+    color: var(--color-neutral);
+}
+
+.heading-box {
+    font-size: 1em;
+    color: var(--color-neutral);
+}
+
+.reasons-box p {
+    font-size: 0.7em;
+    color: var(--color-grey-neutral300);
+}
+
+.reasons-box img {
+    width: 30px;
+}
+
+.reasons-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-us-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5% 0 5% ;
+    gap: 7%;
+    color: var(--color-white);
+}
+
+.about-us-box p {
+    font-size: 0.9em;
+}
+
+.ads-text-box {
+    color: var(--color-white);
+    padding-left: 10%;
+}

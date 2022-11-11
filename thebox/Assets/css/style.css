@@ -1,0 +1,16 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* CSS Sheets */
+@import url(variables.css);
+@import url(layout.css);
+@import url(nav.css);
+@import url(base.css);
+@import url(ads.css);
+@import url(about.css);
+@import url(reputation.css);
+@import url(carousel.css);
+@import url(contactform.css);
+@import url(buttom.css);
+@import url(footer.css);
